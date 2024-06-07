@@ -54,9 +54,38 @@ body{
 /* ////////////////////// MAIN ////////////////////// */
 /* // HERO // */
 .hero{
-    padding: 0px 80px;
     display: flex;
+    align-items: center;
+}
+.divHero{
+    padding: 0px 280px 0px 100px;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.hero p{
+    font-size: 14px;
+    color: #59514f;
+    font-weight: 500;
+    margin-bottom: 60px;
 }
 .imgFondoHero{
     width: 35vw;
+}
+.botonRojo{
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #f92139;
+    border-radius: 2px;
+    padding: 14px 56px;
+    color: white;
+    background-color: #f92139;
+    transition: color 0.3s, background-color 0.3s;
+}
+.botonRojo:hover{
+    color: #f92139;
+    background-color: white;
+    cursor: pointer;
 }
