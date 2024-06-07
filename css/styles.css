@@ -10,13 +10,16 @@ body{
     height: 100vh;
 }
 
+/* /// HEADER Y NAVBAR /// */
 .header{
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 14px 0px;
+    padding: 26px 0px;
+    background-color: black;
 }
+/* // NAVBAR // */
 .navbar{
     width: 40%;
     display: flex;
@@ -24,7 +27,7 @@ body{
 }
 .navbar a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: normal;
     transition: 0,5s;
     scroll-behavior: smooth;
@@ -32,4 +35,18 @@ body{
 .navbar a:hover{
     font-weight: bold;
     text-decoration: underline;
+}
+/* // BOTON // */
+.botonBlanco{
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 8px 36px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    transition: color 0.3s, background-color 0.3s;
+}
+.botonBlanco:hover{
+    color: black;
+    background-color: rgba(256, 256, 256, 1);
+    cursor: pointer;
 }
