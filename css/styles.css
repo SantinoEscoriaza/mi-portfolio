@@ -50,3 +50,13 @@ body{
     background-color: rgba(256, 256, 256, 1);
     cursor: pointer;
 }
+
+/* ////////////////////// MAIN ////////////////////// */
+/* // HERO // */
+.hero{
+    padding: 0px 80px;
+    display: flex;
+}
+.imgFondoHero{
+    width: 35vw;
+}
