@@ -14,7 +14,7 @@ body{
     height: 100vh;
 }
 
-/* /// HEADER Y NAVBAR /// */
+/* //////// HEADER Y NAVBAR //////// */
 .header{
     width: 100%;
     display: flex;
@@ -56,7 +56,7 @@ body{
 }
 
 /* ////////////////////// MAIN ////////////////////// */
-/* // HERO // */
+/* //////// HERO //////// */
 .hero{
     display: flex;
     align-items: center;
@@ -94,7 +94,7 @@ body{
     cursor: pointer;
 }
 
-/* // ABOUT ME // */
+/* //////// ABOUT ME //////// */
 .about{
     padding: 0px 100px 40px 100px;
     display: flex;
@@ -199,4 +199,38 @@ body{
 }
 .skillSec p{
     font-size: 14px;
+}
+
+/* //////// SECCION PORTFOLIO //////// */
+.portfolio{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 100px 40px 120px;
+}
+    /* // TEXTO SUPERIOR // */
+.portfolio-content{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+.portfolio-content p{
+    width: 32%;
+    font-size: 14px;
+    margin: 0px 50px 0px 20px;
+}
+.portfolio-content h2{
+    width: 40%;
+    font-size: 48px;
+    font-weight: 500;
+    margin: 0;
+}
+    /* SECCIONES CON PROYECTOS */
+.proyecto{
+    padding: 10px;
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
 }
