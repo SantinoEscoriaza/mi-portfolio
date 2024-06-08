@@ -19,7 +19,7 @@ body{
     padding: 26px 0px;
     background-color: black;
 }
-/* // NAVBAR // */
+    /* // NAVBAR // */
 .navbar{
     width: 40%;
     display: flex;
@@ -36,7 +36,7 @@ body{
     font-weight: bold;
     text-decoration: underline;
 }
-/* // BOTON // */
+    /* // BOTON // */
 .botonBlanco{
     border: 1px solid white;
     border-radius: 2px;
@@ -52,23 +52,20 @@ body{
 }
 
 /* ////////////////////// MAIN ////////////////////// */
-main{
-    padding: 0px 0px 0px 100px;
-}
 /* // HERO // */
 .hero{
     display: flex;
     align-items: center;
 }
 .divHero{
-    padding: 0px 280px 0px 0px;
+    padding: 0px 280px 0px 100px;
 }
 .hero h1{
     font-size: 48px;
     font-weight: 600;
     line-height: 60px;
 }
-.hero p{
+.descripcion{
     font-size: 14px;
     color: #59514f;
     font-weight: 500;
@@ -82,7 +79,7 @@ main{
     font-weight: 500;
     border: 1px solid #f92139;
     border-radius: 2px;
-    padding: 14px 56px;
+    padding: 14px 60px;
     color: white;
     background-color: #f92139;
     transition: color 0.3s, background-color 0.3s;
@@ -91,4 +88,71 @@ main{
     color: #f92139;
     background-color: white;
     cursor: pointer;
+}
+
+/* // ABOUT ME // */
+.about{
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about img{
+    position: relative;
+    width: 350px;
+    margin:0px 20px 40px 80px ;
+}
+
+    /* // TEXTO // */
+.about h2{
+    text-align: center;
+    width: 100%;
+    font-size: 48px;
+    font-weight: 500;
+}
+.textAbout{
+    width: 40%;
+    padding: 10px 0px 10px 40px;
+}
+.about p{
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+    /* // BOTONES // */
+.botonRojo2{
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #f92139;
+    border-radius: 2px;
+    padding: 14px 60px;
+    color: #f92139;
+    background-color: white;
+    transition: color 0.3s, background-color 0.3s;
+    margin: 0px 14px;
+}
+.botonRojo2:hover{
+    color: white;
+    background-color: #f92139;
+    cursor: pointer;
+}
+
+    /* // ICONOS // */
+.iconsAbout{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.iconsAbout a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+.iconsAbout a:hover{
+    color: #f92139;
 }
