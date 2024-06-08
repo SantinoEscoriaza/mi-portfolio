@@ -261,3 +261,55 @@ body{
     color: var(--primary-color);
     font-weight: 500;
 }
+
+/* //////// SECCION TESTIMONIOS //////// */
+.testimonios{
+    padding: 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 55px;
+}
+.testimonios h2{
+    padding-left: 40px;
+    font-size: 48px;
+    font-weight: 500;
+}
+.TestContainer{
+    width: 40%;
+}
+.italic{
+    font-size: 16px;
+    font-style: italic;
+}
+.nombreCeo{
+    width: 100%;
+    text-align: end;
+    font-weight: 500;
+    font-style: normal;
+}
+.imgCeoContainer{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: solid 1px var(--primary-color);
+    box-shadow: -35px 25px black;
+}
+.imgCeoContainer img{
+    width: 300px;
+}
+.selectores{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 25px;
+}
+.selecTestimonio{
+    margin: 0;
+    width: 45px;
+    border: solid 1px gray;
+}
+.selecTestimonio:hover{
+    cursor: pointer;
+    border: solid 1px var(--primary-color);
+}
