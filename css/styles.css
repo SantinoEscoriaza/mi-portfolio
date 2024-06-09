@@ -273,9 +273,11 @@ h2{
 .TestContainer{
     width: 40%;
 }
-.italic{
+.testimonio{
     font-size: 16px;
     font-style: italic;
+    line-height: 22px;
+    margin: 0;
 }
 .nombreCeo{
     width: 100%;
@@ -289,15 +291,16 @@ h2{
     padding: 10px;
     border: solid 1px var(--primary-color);
     box-shadow: -35px 25px black;
+    height: 100%;
 }
-.imgCeoContainer img{
+.ceoFoto{
     width: 300px;
 }
 .selectores{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     padding-top: 20px;
-    gap: 25px;
 }
 .selecTestimonio{
     margin: 0;
@@ -307,6 +310,9 @@ h2{
 .selecTestimonio:hover{
     cursor: pointer;
     border: solid 1px var(--primary-color);
+}
+.botonSelect{
+    padding: 5px 10px;
 }
 
 /* //////// SECCION CONTACTO //////// */
