@@ -1,19 +1,45 @@
+/* ////////////// VARIABLES ////////////// */
 :root{
     --primary-color: #f92139;
     --secondary-color: #ffffff;
     --bg-color-1: #000000;
 }
+
+/* ////////////// ESTILOS GENERALES ////////////// */
 *{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
-
 html{
     scroll-behavior: smooth;
 }
 body{
     height: 100vh;
 }
-
+/* // TITULO DE SECCION // */
+h2{
+    width: 100%;
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+}
+/* // ICONOS // */
+    .icons{
+        padding: 30px 0px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+    }
+    .icons a{
+        font-size: 18px;
+        text-decoration: none;
+        color: var(--bg-color-1);
+        transition: color 0.3s;
+    }
+    .icons a:hover{
+        color: var(--primary-color);
+    }
 /* //////// HEADER Y NAVBAR //////// */
 .header{
     width: 100%;
@@ -109,12 +135,6 @@ body{
 }
 
     /* // TEXTO // */
-.about h2{
-    text-align: center;
-    width: 100%;
-    font-size: 48px;
-    font-weight: 500;
-}
 .textAbout{
     width: 40%;
     padding: 10px 0px 10px 40px;
@@ -142,25 +162,6 @@ body{
     cursor: pointer;
 }
 
-    /* // ICONOS // */
-.iconsAbout{
-    padding: 30px 0px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    align-items: center;
-}
-.iconsAbout a{
-    font-size: 18px;
-    text-decoration: none;
-    color: var(--bg-color-1);
-    transition: color 0.3s;
-}
-.iconsAbout a:hover{
-    color: var(--primary-color);
-}
-
 /* // SKILLS // */
 .skills{
     padding: 50px 100px;
@@ -169,12 +170,6 @@ body{
     justify-content: center;
     background-color: var(--bg-color-1);
     color: var(--secondary-color);
-}
-.skills h2{
-    text-align: center;
-    width: 100%;
-    font-size: 48px;
-    font-weight: 500;
 }
 .skills img{
     width: 60px;
@@ -223,9 +218,8 @@ body{
 }
 .portfolio-content h2{
     width: 40%;
-    font-size: 48px;
-    font-weight: 500;
     margin: 0;
+    text-align: left;
 }
     /* SECCIONES CON PROYECTOS */
 .proyecto{
@@ -271,9 +265,8 @@ body{
     gap: 55px;
 }
 .testimonios h2{
+    text-align: left;
     padding-left: 40px;
-    font-size: 48px;
-    font-weight: 500;
 }
 .TestContainer{
     width: 40%;
@@ -344,10 +337,6 @@ body{
     border: 1px solid gray;
 }
 .contact h2{
-    width: 100%;
-    font-size: 48px;
-    font-weight: 500;
-    text-align: center;
     margin: 40px 0px;
 }
 .contact form{
@@ -408,11 +397,11 @@ body{
 /* ////////////////////// FOOTER ////////////////////// */
 .footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: var(--bg-color-1);
     color: var(--secondary-color);
-    padding: 40px 120px;
+    padding: 40px 0px;
     font-size: 16px;
 }
 .botonVolver{
