@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- // HEADER, NAVBAR // -->
-    <header class="header">
+    <header class="header" id="headerid">
             <img src="icons/logoPortfolio.svg" alt="miLogo" class="logo">
             <nav class="navbar">
                 <a href="#inicio">Inicio</a>
@@ -20,7 +20,7 @@
                 <a href="#testimoniosid">Testimonios</a>
                 <a href="#contactid">Contáctame</a>
             </nav>
-            <a href=""><button class="botonBlanco">Contrátame</button></a>
+            <a href="#contactid"><button class="botonBlanco">Contrátame</button></a>
     </header>
     <!-- // MAIN // -->
     <main>
@@ -28,7 +28,7 @@
         <section class="hero" id="inicio">
             <div class="divHero">
                 <h1>Hola! Soy Santino Escoriaza</h1>
-                <p class="descripcion">Soy estudiante de programacion y en esta pagina encontraras todo lo que necesitas saber sobre mi desempeño en la programación</p>
+                <p class="descripcion">Soy estudiante de programación y en esta página encontrarás todo lo que necesitas saber sobre mi desempeño en la programación, mis proyectos y mis redes sociales.</p>
                 <a href=""><button class="botonRojo">Descargar CV</button></a>
             </div>
             <img src="img/imgFondoHero.png" alt="Imagen de presentacion" class="imgFondoHero">
@@ -39,12 +39,12 @@
             <h2>Sobre mi</h2>
             <img src="img/imgAbout.jpeg" alt="foto">
             <section class="textAbout">
-                <p class="descripcion">Tengo 18 años y soy de Argentina. Tengo experiencia en el desarrollo de paginas web. Estudio Ingenieria en sistemas en la Universidad Tecnologica Nacional, y tengo mucho interes en el mundo de la programación y el manejo de datos.</p>
+                <p class="descripcion">Tengo 18 años y soy de Argentina. Tengo experiencia en el desarrollo de páginas web. Estudio Ingeniería en sistemas en la Universidad Tecnológica Nacional, y tengo mucho interés en el mundo de la programación y el manejo de datos.</p>
                 <p class="descripcion">Estoy capacitado en el desarrollo de sitios web desde 0, manejando tecnologias de front-end y back-end que se complementan con el manejo de ciertas herramientas de diseño grafico para poder ofrecer un servicio lo mas completo</p>
             </section>
             <!-- Botones -->
             <a href=""><button class="botonRojo">Descargar CV</button></a>
-            <a href=""><button class="botonRojo2">Contrátame</button></a>
+            <a href="#contactid"><button class="botonRojo2">Contrátame</button></a>
             <!-- Iconos -->
             <section class="icons">
                 <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook redSocialIcon"></i></a>
@@ -93,13 +93,13 @@
         <section class="portfolio" id="portfolioid">
             <section class="portfolio-content">
                 <h2>Échale un vistazo a mis proyectos</h2>
-                <p class="descripcion">Los siguientes proyectos han sido totalmente codificados por mi. Al revisarlos podras entender mejor como trabajo a la hora de desarrollar proyectos.</p>
+                <p class="descripcion">Estos son algunos ejemplos de proyectos que he desarrollado. Revisandolos podrás entender mejor la forma en la que trabajo el código y los resultados alcanzados</p>
                 <a href="https://github.com/SantinoEscoriaza" target="_blank"><button class="botonRojo">Ver más</button></a>
             </section>
             <!-- Proyecto 1 -->
             <section class="proyecto">
                 <section class="proyect-content">
-                    <h3>Landing Page 1º</h3>
+                    <h3>Landing Page Nº1</h3>
                     <p class="descripcion">Proyecto basado en recrear un diseño de referencia usando Html5 y Css3</p>
                     <a href="https://santinoescoriaza.github.io/image-based-web-project/" target="_blank" class="verProyecto">Ver proyecto</a>
                 </section>
@@ -108,7 +108,7 @@
             <!-- Proyecto 2 -->
             <section class="proyecto">
                 <section class="proyect-content">
-                    <h3>Landing Page 2º</h3>
+                    <h3>Landing Page Nº2</h3>
                     <p class="descripcion">Proyecto basado en recrear un diseño de referencia usando Html5 y Css3</p>
                     <a href="https://santinoescoriaza.github.io/image-based-web-project2/" target="_blank" class="verProyecto">Ver proyecto</a>
                 </section>
@@ -123,7 +123,7 @@
             </section>
             <section class="TestContainer">
                 <h2>Testimonios</h2>
-                <p class="descripcion testimonio">"Su incorporacion al equipo de trabajo fue todo un cambio de perspectiva. Más alla de su aporte personal, Santino hizo que el equipo trabaje de manera más eficaz al ayudarles a hacer mejor foco en cada pequeño detalle y llegar a resultados no solo mejores visualmente, sino realizados de manera más ordenada."</p>
+                <p class="descripcion testimonio">"Su incorporación al equipo de trabajo fue todo un cambio de perspectiva. Más allá de su aporte personal, Santino hizo que el equipo trabaje de manera más eficaz, al ayudarles a hacer mejor foco en cada pequeño detalle y llegar a resultados no solo mejores visualmente, sino realizados de manera más ordenada."</p>
                 <p class="nombreCeo">Jack Pearson</p>
                 <div class="selectores">
                     <button class="botonRojo botonSelect"><i class="bi bi-arrow-left"></i></button>
@@ -164,6 +164,6 @@
     <footer class="footer">
         <img src="icons/logoPortfolio.svg" alt="miLogo" class="logo">
         <p>© Todos los derechos reservados | 2024</p>
-        <a href="#inicio"><button class="botonVolver"><i class="bi bi-arrow-up"></i></button></a>
+        <a href="#headerid"><button class="botonVolver"><i class="bi bi-arrow-up"></i></button></a>
     </footer>
 </body>
