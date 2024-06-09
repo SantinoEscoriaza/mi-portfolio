@@ -177,6 +177,11 @@ h2{
 .skills img{
     width: 60px;
 }
+.contSkillimg{
+    padding: 12px 12px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 50%;
+}
     /* // DIVISION SKILL // */
 .skillSec{
     display: flex;
@@ -194,8 +199,9 @@ h2{
 }
 .skill{
     font-size: 30px;
+    margin: 10px 0px;
 }
-.skillSec p{
+.skillDesc{
     font-size: 14px;
 }
 
