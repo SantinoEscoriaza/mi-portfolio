@@ -94,7 +94,7 @@ h2{
 .divHero{
     padding: 0px 280px 0px 100px;
 }
-.hero h1{
+h1{
     font-size: 48px;
     font-weight: 600;
     line-height: 60px;
@@ -102,7 +102,7 @@ h2{
 .descripcion{
     color: #59514f;
     margin-bottom: 60px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
 }
 .imgFondoHero{
@@ -227,7 +227,7 @@ h2{
 .portfolio-content p{
     width: 32%;
     margin: 0px 50px 0px 20px;
-    font-size: 14px;
+    text-align: justify;
 }
 .portfolio-content h2{
     width: 40%;
@@ -260,7 +260,7 @@ h2{
 .verProyecto{
     color: var(--bg-color-1);
     text-decoration: underline;
-    transition: color 0.2s, line-weight 0.2s;
+    transition: color 0.2s;
 }
 .verProyecto:hover{
     color: var(--primary-color);
@@ -279,6 +279,7 @@ h2{
     padding-left: 40px;
     text-align: left;
 }
+    /* // TEXTO // */
 .TestContainer{
     width: 40%;
 }
@@ -294,6 +295,7 @@ h2{
     font-weight: 500;
     font-style: normal;
 }
+    /* // IMAGEN // */
 .imgCeoContainer{
     height: 100%;
     padding: 10px;
@@ -305,6 +307,7 @@ h2{
 .ceoFoto{
     width: 300px;
 }
+    /* // NAVEGADOR // */
 .selectores{
     padding-top: 20px;
     display: flex;
@@ -410,7 +413,7 @@ h2{
     border: 1px solid var(--secondary-color);
     color: var(--secondary-color);
     background-color: var(--bg-color-1);
-    font-size: small;
+    font-size: 14px;
     transition: color 0.3s, background-color 0.3s;
 }
 .botonVolver:hover{
