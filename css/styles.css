@@ -48,17 +48,19 @@ h2{
     width: 100%;
     padding: 26px 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--bg-color-1);
 }
+.header .logo{
+    margin: 0px 80px;
+}
     /* // NAVBAR // */
 .navbar{
-    width: 40%;
+    width: 80%;
     display: flex;
-    justify-content: space-around;
-    position: relative;
-    left: 4%;
+    justify-content: center;
+    gap: 20px;
 }
 .navbar a{
     color: var(--secondary-color);
@@ -73,6 +75,7 @@ h2{
     /* // BOTON BLANCO// */
 .botonBlanco{
     padding: 8px 36px;
+    margin-right: 80px;
     border: 1px solid var(--secondary-color);
     border-radius: 2px;
     color: var(--secondary-color);

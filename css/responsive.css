@@ -11,10 +11,6 @@
 
 }
 
-@media(max-width:1024px){
-
-}
-
 @media(max-width:1280px){
     /* // HEADER // */
     .navbar{
@@ -125,6 +121,10 @@
         padding: 8px;
         font-size: 14px;
     }
+}
+
+@media(max-width:1024px){
+
 }
 
 @media(min-width:1280px){
