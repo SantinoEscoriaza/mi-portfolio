@@ -3,16 +3,128 @@
 
 }
 
-@media(min-width:480px){
+@media(max-width:480px){
     
 }
 
-@media(min-width:768px){
+@media(max-width:768px){
 
 }
 
-@media(min-width:1024px){
+@media(max-width:1024px){
 
+}
+
+@media(max-width:1280px){
+    /* // HEADER // */
+    .navbar{
+        width: 50%;
+    }
+    /* // ICONOS // */
+    .icons a{
+        font-size: 18px;
+    }
+    /* // TITULOS / TEXTOS // */
+    h1, h2{
+        font-size: 38px;
+    }
+    .descripcion{
+        line-height: 24px;
+    }
+    /* // BOTONES // */
+    .botonRojo, .botonRojo2, .botonBlanco{
+        padding: 12px 42px;
+        font-size: 16px;
+    }
+    /* // HERO // */
+    .divHero{
+        padding: 0px 100px 0px 100px;
+    }
+    .imgFondoHero{
+        width: 40%;
+    }
+    /* // ABOUT // */
+    .about{
+        align-items: center;
+    }
+    .about img{
+        width: 30%;
+        height: 100%;
+        margin:0px 20px 0px 80px;
+    }
+    .textAbout{
+        width: 50%;
+        padding: 10px 30px;
+    }
+    .about p{
+        margin: 0px 0px 8px 0px;
+        line-height: 22px;
+        font-size: 14px;
+    }
+    .about a{
+        margin-top: 20px;
+    }
+    /* // HABILIDADES // */
+    .skills{
+        padding: 50px 40px;
+    }
+    .skillSec{
+        width: 25%;
+    }
+    /* // PORTFOLIO // */
+    .portfolio{
+        padding: 100px 100px 40px 100px;
+    }
+    .portfolio-content p{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+    .proyecto img{
+        width: 50%;
+    }
+    .proyect-content{
+        padding: 20px 0px 10px 15px;
+    }
+    .proyect-content p{
+        line-height: 18px;
+        margin-bottom: 40px;
+    }
+    /* // TESTIMONIOS // */
+    .testimonios{
+        padding: 50px 50px;
+    }
+    .TestContainer{
+        width: 50%;
+    }
+    .nombreCeo{
+        font-size: 16px;
+    }
+    .ceoFoto{
+        width: 200px;
+    }
+    .botonSelect{
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    /* // CONTACTO // */
+    .contact{
+        padding: 50px 50px;
+    }
+    .inpNombreMail, .inpAsunto, .inpMensaje{
+        font-size: 16px;
+    }
+    .botonContact{
+        font-size: 18px;
+    }
+    /* // FOOTER // */
+    .footer{
+        font-size: 16px;
+    }
+    .botonVolver{
+        padding: 8px;
+        font-size: 14px;
+    }
 }
 
 @media(min-width:1280px){
