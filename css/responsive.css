@@ -512,7 +512,28 @@
 }
 
 @media(min-width:1280px){
-/* TAMAÑO TRABAJADO ORIGINALMENTE */
+    /* // HEADER // */
+    .header{
+        font-size: 20px;
+    }
+    /* // TITULOS / TEXTOS // */
+    .descripcion{
+        font-size: 20px;  
+    }
+    /* // HABILIDADES // */
+    .skillSec{
+        width: 25%;
+    }
+    .skill{
+        font-size: 28px;
+    }
+    .skillDesc{
+        font-size: 20px;
+    }
+    /* // FOOTER // */
+    .footer{
+        font-size: 20px;
+    }
 }
 
 @media(min-width:1440px){
@@ -521,7 +542,7 @@
         width: 60px;
     }
     .header{
-        font-size: 18px;
+        font-size: 22px;
     }
     /* // ICONOS // */
     .icons a{
@@ -529,10 +550,10 @@
     }
     /* // TITULOS / TEXTOS // */
     h1, h2{
-        font-size: 58px;
+        font-size: 54px;
     }
     .descripcion{
-        font-size: 18px;
+        font-size: 24px;
         line-height: 32px;
     }
     /* // BOTONES // */
@@ -553,25 +574,25 @@
         font-size: 28px;
     }
     .skillDesc{
-        font-size: 14px;
+        font-size: 20px;
     }
     /* // PROYECTOS // */
     .portfolio-content p{
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 22px;
+        line-height: 28px;
     }
     .proyect-content h3{
-        font-size: 24px;
+        font-size: 28px;
     }
     .proyect-content p{
-        line-height: 22px;
+        line-height: 28px;
     }
     .verProyecto{
-        font-size: 20px;
+        font-size: 24px;
     }
     /* // TESTIMONIOS // */
     .nombreCeo{
-        font-size: 20px;
+        font-size: 24px;
     }
     .botonSelect{
         padding: 8px 12px;
@@ -584,18 +605,18 @@
     }
     /* // CONTACTO // */
     .inpNombreMail, .inpAsunto, .inpMensaje{
-        font-size: 18px;
+        font-size: 24px;
     }
     .botonContact{
         font-size: 22px;
     }
     /* // FOOTER // */
     .footer{
-        font-size: 20px;
+        font-size: 24px;
     }
     .botonVolver{
-        padding: 8px;
-        font-size: 16px;
+        padding: 10px;
+        font-size: 18px;
     }
 }
 

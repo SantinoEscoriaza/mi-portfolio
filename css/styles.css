@@ -109,7 +109,7 @@ h2{
     justify-content: space-between;
 }
 .divHero{
-    padding: 60px 120px 0px 100px;
+    padding: 60px 120px 0px 120px;
 }
 h1{
     font-size: 48px;
@@ -278,7 +278,7 @@ h1{
 }
 .proyect-content{
     width: 40%;
-    padding: 35px 15px 0px 15px;
+    padding: 35px 15px 10px 15px;
 }
 .proyect-content h3{
     margin: 0;
@@ -441,6 +441,7 @@ h1{
 .botonVolver{
     padding: 8px;
     border: 1px solid var(--secondary-color);
+    border-radius: 2px;
     color: var(--secondary-color);
     background-color: var(--bg-color-1);
     font-size: 14px;
