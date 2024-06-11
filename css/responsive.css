@@ -453,6 +453,9 @@
     .html img{
         width: 30px;
     }
+    .botonSelectSkill{
+        padding: 4px 6px;
+    }
     /* // PORTFOLIO // */
     .portfolio{
         padding: 40px 20px;
@@ -483,9 +486,6 @@
         margin-bottom: 10px;
     }
     /* // TESTIMONIOS // */
-    .testimonios{
-        padding: 20px 30px;
-    }
     .selecTestimonio{
         width: 25px;
     }
@@ -494,7 +494,7 @@
     }
     /* // CONTACTO // */
     .contact{
-        padding: 0px 10px;
+        padding: 40px 10px 20px;
     }
     .botonesContacto{
         width: 80%;
