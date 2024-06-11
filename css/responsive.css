@@ -605,7 +605,7 @@
         width: 75px;
     }
     .header{
-        font-size: 24px;
+        font-size: 28px;
     }
     /* // ICONOS // */
     .icons a{
@@ -616,13 +616,18 @@
         font-size: 64px;
     }
     .descripcion{
-        font-size: 22px;
+        font-size: 32px;
         line-height: 36px;
     }
     /* // BOTONES // */
     .botonRojo, .botonRojo2, .botonBlanco{
         padding: 18px 80px;
-        font-size: 28px;
+        font-size: 30px;
+    }
+    /* // HERO // */
+    .divHero{
+        padding: 80px 120px 0px 140px;
+        width: 50%;
     }
     /* // ABOUT // */
     .about p{
@@ -630,29 +635,38 @@
         line-height: 34px;
     }
     /* // HABILIDADES // */
-    .skillSec{
-        width: 18%;
-    }
+    /* .skillSec{
+        width: 20%;
+    } */
     .skill{
-        font-size: 32px;
+        font-size: 36px;
     }
     .skillDesc{
-        font-size: 16px;
+        font-size: 24px;
+    }
+    .skills img{
+        width: 80px;
     }
     /* // PROYECTOS // */
+    .portfolio-content h2{
+        width: 30%;
+    }
     .portfolio-content p{
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 28px;
+        line-height: 30px;
     }
     .proyect-content h3{
         font-size: 28px;
     }
+    .proyect-content p{
+        line-height: 30px;
+    }
     .verProyecto{
-        font-size: 22px;
+        font-size: 28px;
     }
     /* // TESTIMONIOS // */
     .nombreCeo{
-        font-size: 22px;
+        font-size: 28px;
     }
     .botonSelect{
         padding: 10px 15px;
@@ -665,14 +679,14 @@
     }
     /* // CONTACTO // */
     .inpNombreMail, .inpAsunto, .inpMensaje{
-        font-size: 20px;
+        font-size: 28px;
     }
     .botonContact{
         font-size: 24px;
     }
     /* // FOOTER // */
     .footer{
-        font-size: 22px;
+        font-size: 28px;
     }
     .botonVolver{
         padding: 10px;

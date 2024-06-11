@@ -106,6 +106,7 @@ h2{
 /* //////// HERO //////// */
 .hero{
     display: flex;
+    justify-content: space-between;
 }
 .divHero{
     padding: 60px 120px 0px 100px;
@@ -203,7 +204,7 @@ h1{
     /* // DIVISION SKILL // */
 .skillSec{
     width: 30%;
-    padding: 10px;
+    padding: 15px 20px;
     margin: 0px 5px 10px 5px;
     display: flex;
     flex-direction: column;
@@ -226,7 +227,6 @@ h1{
 }
 .botonSelectSkill{
     display: none;
-
 }
 .selectorSkill{
     display: none;
@@ -235,7 +235,7 @@ h1{
 /* //////// SECCION PORTFOLIO //////// */
 .portfolio{
     height: 100%;
-    padding: 100px 100px 40px 120px;
+    padding: 100px 120px 40px 120px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -246,6 +246,7 @@ h1{
     height: 100%;
     padding-bottom: 60px;
     display: flex;
+    justify-content: space-around;
     align-items: flex-end;
 }
 .portfolio-content p{
