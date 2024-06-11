@@ -1,16 +1,4 @@
 
-@media(max-width:320px){
-
-}
-
-@media(max-width:480px){
-    
-}
-
-@media(max-width:768px){
-
-}
-
 @media(max-width:1280px){
     /* // HEADER // */
     .navbar{
@@ -207,6 +195,200 @@
         padding: 30px 10px;
         font-size: 16px;
     }
+}
+
+@media(max-width:768px){
+        /* // HEADER // */
+        .navbar{
+            display: none;
+        }
+        .botonBlanco{
+            display: none;
+        }
+        .botonMenu{
+            display: block;
+        }
+        /* // ICONOS // */
+        .icons a{
+            margin: 0px;
+            font-size: 14px;
+        }
+        /* // BOTONES // */
+        .botonRojo, .botonRojo2, .botonBlanco{
+            padding: 8px 30px;
+            font-size: 16px;
+        }
+        /* // HERO // */
+        .divHero{
+            padding: 40px 80px 0px 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .imgFondoHero{
+            display: none;
+        }
+        /* // ABOUT // */
+        .about{
+            align-items: center;
+            padding: 20px 40px;
+        }
+        .about img{
+            display: none;
+        }
+        .textAbout{
+            width: 100%;
+            padding: 10px 30px;
+        }
+        .about .botonRojo{
+            display: none;
+        }
+        /* // HABILIDADES // */
+        .skills{
+            padding: 20px 40px;
+            align-items: center;
+        }
+        .html{
+            width: 70%;
+        }
+        .html:hover{
+            border: solid 1px transparent;
+        }
+        .css,.js,.java,.sql{
+            display: none;
+        }
+        .botonSelectSkill{
+            display: block;
+            height: 100%;
+            padding: 5px 10px;
+            color: var(--secondary-color);
+            background-color: transparent;
+            border: 1px solid var(--secondary-color);
+            border-radius: 2px;
+            transition: color 0.3s, border 0.3s;
+        }
+        .botonSelectSkill:hover{
+            color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+        }
+        .selectorSkill{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            width: 80%;
+        }
+        .selectSkill{
+            width: 25px;
+            margin: 0;
+            border: solid 1px gray;
+            transition: border 0.3s;
+        }
+        .selectSkill:hover{
+            cursor: pointer;
+            border: solid 1px var(--primary-color);
+        }
+        .selectSkill{
+            width: 25px;
+            margin: 0;
+            border: solid 1px gray;
+        }
+        .selected{
+            border: solid 1px var(--primary-color);
+        }
+        /* // PORTFOLIO // */
+        .portfolio{
+            padding: 40px 40px;
+        }
+        .portfolio-content{
+            align-items: center;
+            flex-wrap: wrap;
+            padding-bottom: 10px;
+        }
+        .portfolio-content h2{
+            width: 40%;
+            margin: 0;
+            text-align: left;
+        }
+        .portfolio-content p{
+            width: 50%;
+            height: 100%;
+            margin: 0;
+        }
+        .portfolio .botonRojo{
+            margin: 40px 0px 0px 20px;
+        }
+        .proyecto{
+            width: 100%;
+        }
+        .pr2{
+            display: none;
+        }
+        .selectoresProyecto{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+        .selectProyecto{
+            width: 45px;
+            margin: 0;
+            border: solid 1px gray;
+            transition: border 0.3s;
+        }
+        .selectProyecto:hover{
+            border: solid 1px var(--primary-color);
+        }
+        /* // TESTIMONIOS // */
+        .testimonios{
+            padding: 20px 40px;
+        }
+        .TestContainer{
+            width: 100%;
+        }
+        .imgCeoContainer{
+            display: none;
+        }
+        .selecTestimonio{
+            width: 20px;
+        }
+        .botonSelect{
+            padding: 8px 12px;
+            font-size: 12px;
+        }
+        /* // CONTACTO // */
+        .contact{
+            padding: 0px 20px;
+        }
+        .contact h2{
+            margin: 0px;
+        }
+        .botonesContacto{
+            width: 100%;
+            flex-direction: row;
+            padding: 10px 0px;
+        }
+        .botonContact{
+            padding: 20px 10px;
+        }
+        .formContact{
+            width: 100%;
+            padding: 0px 20px;
+        }
+        .inpNombreMail, .inpAsunto, .inpMensaje{
+            font-size: 16px;
+        }
+        .contact .icons{
+            padding: 0px 0px 20px 0px;
+        }
+}
+
+@media(max-width:480px){
+    
+}
+
+@media(max-width:320px){
+
 }
 
 @media(min-width:1280px){

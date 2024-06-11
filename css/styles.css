@@ -87,7 +87,21 @@ h2{
     background-color: rgba(256, 256, 256, 1);
     cursor: pointer;
 }
-
+    /* // BOTON MENU CELULARES // */
+    .botonMenu{
+        display: none;
+        margin: 0px 60px;
+        padding: 5px 15px;
+        color: var(--secondary-color);
+        background-color: transparent;
+        border: solid 1px var(--secondary-color);
+        border-radius: 4px;
+        transition: color 0.3s, border 0.3s;
+    }
+    .botonMenu:hover{
+        color: var(--primary-color);
+        border: solid 1px var(--primary-color);
+    }
 /* ////////////////////// MAIN ////////////////////// */
 /* //////// HERO //////// */
 .hero{
@@ -210,6 +224,13 @@ h1{
     text-align: justify;
     font-size: 14px;
 }
+.botonSelectSkill{
+    display: none;
+
+}
+.selectorSkill{
+    display: none;
+}
 
 /* //////// SECCION PORTFOLIO //////// */
 .portfolio{
@@ -270,7 +291,10 @@ h1{
     color: var(--primary-color);
     font-weight: 500;
 }
-
+    /* // SELECTORES PARA CELULAR // */
+.selectoresProyecto{
+    display: none;
+}
 /* //////// SECCION TESTIMONIOS //////// */
 .testimonios{
     padding: 50px 100px;
@@ -331,7 +355,9 @@ h1{
 .botonSelect{
     padding: 5px 10px;
 }
-
+.selected{
+    border: solid 1px var(--primary-color);
+}
 /* //////// SECCION CONTACTO //////// */
 .contact{
     height: 100%;
