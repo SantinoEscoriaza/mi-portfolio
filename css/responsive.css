@@ -34,7 +34,7 @@
     }
     /* // HERO // */
     .divHero{
-        padding: 0px 100px 0px 100px;
+        padding: 60px 100px 0px 100px;
     }
     .imgFondoHero{
         width: 40%;
@@ -124,7 +124,89 @@
 }
 
 @media(max-width:1024px){
-
+    /* // HEADER // */
+    .navbar{
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .navbar a{
+        width: 30%;
+    }
+    /* // ICONOS // */
+    .icons a{
+        font-size: 18px;
+    }
+    /* // TITULOS / TEXTOS // */
+    h1{
+        line-height: 40px;
+    }
+    h1, h2{
+        font-size: 30px;
+    }
+    .descripcion{
+        line-height: 24px;
+    }
+    /* // BOTONES // */
+    .botonRojo, .botonRojo2, .botonBlanco{
+        padding: 8px 30px;
+        font-size: 16px;
+    }
+    /* // HERO // */
+    .divHero{
+        padding: 40px 80px 0px 80px;
+    }
+    .imgFondoHero{
+        width: 40%;
+    }
+    /* // ABOUT // */
+    .about{
+        align-items: center;
+        padding: 40px 80px;
+    }
+    .about img{
+        width: 30%;
+        height: 100%;
+        margin:0px 20px 0px 40px;
+    }
+    .textAbout{
+        width: 50%;
+        padding: 10px 30px;
+    }
+    /* // HABILIDADES // */
+    .skills{
+        padding: 20px 40px;
+    }
+    /* // PORTFOLIO // */
+    .portfolio{
+        padding: 100px 60px 40px 60px;
+    }
+    .portfolio-content p{
+        width: 50%;
+    }
+    /* // TESTIMONIOS // */
+    .botonSelect{
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    /* // CONTACTO // */
+    .contact{
+        padding: 0px 30px;
+    }
+    .inpNombreMail{
+        width: 40%;
+    }
+    .inpNombreMail, .inpAsunto, .inpMensaje{
+        font-size: 16px;
+    }
+    .botonesContacto a{
+        margin: 10px 0px;
+    }
+    .botonContact{
+        padding: 30px 10px;
+        font-size: 16px;
+    }
 }
 
 @media(min-width:1280px){
