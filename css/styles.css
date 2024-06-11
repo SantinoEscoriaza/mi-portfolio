@@ -90,17 +90,6 @@ h2{
     /* // BOTON MENU CELULARES // */
     .botonMenu{
         display: none;
-        margin: 0px 60px;
-        padding: 5px 15px;
-        color: var(--secondary-color);
-        background-color: transparent;
-        border: solid 1px var(--secondary-color);
-        border-radius: 4px;
-        transition: color 0.3s, border 0.3s;
-    }
-    .botonMenu:hover{
-        color: var(--primary-color);
-        border: solid 1px var(--primary-color);
     }
 /* ////////////////////// MAIN ////////////////////// */
 /* //////// HERO //////// */
