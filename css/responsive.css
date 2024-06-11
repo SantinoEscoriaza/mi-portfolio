@@ -384,11 +384,131 @@
 }
 
 @media(max-width:480px){
-    
-}
-
-@media(max-width:320px){
-
+        /* // HEADER // */
+    .header{
+        padding: 20px 0px;
+        justify-content: space-between;
+    }
+    .header .logo{
+        margin: 0px 40px;
+    }
+    .botonMenu{
+        margin: 0px 40px;
+    }
+    /* // ICONOS // */
+    .icons a{
+        margin: 0px;
+        font-size: 14px;
+    }
+    /* // BOTONES // */
+    .botonRojo, .botonRojo2, .botonBlanco{
+        padding: 8px 30px;
+        font-size: 16px;
+    }
+    /* // HERO // */
+    .divHero{
+        padding: 20px 20px 0px 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+    .descripcion{
+        margin-bottom: 20px;
+    }
+    /* // ABOUT // */
+    .about{
+        padding: 15px 20px;
+    }
+    .textAbout{
+        padding: 0px;
+        text-align: justify;
+    }
+    /* // HABILIDADES // */
+    .skills{
+        padding: 10px 20px 30px 20px;
+    }
+    .skillSec{
+        width: 60%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .skillSec h3{
+        font-size: 24px;
+    }
+    .contSkillimg{
+        padding: 8px 8px;
+    }
+    .html img{
+        width: 30px;
+    }
+    /* // PORTFOLIO // */
+    .portfolio{
+        padding: 40px 20px;
+    }
+    .portfolio-content{
+        padding-bottom: 10px;
+    }
+    .portfolio-content h2{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .portfolio-content p{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .portfolio .botonRojo{
+        margin: 10px 0px 0px 5px;
+    }
+    .proyecto img{
+        display: none;
+    }
+    .proyect-content{
+        width: 100%;
+        padding: 12px;
+    }
+    .proyect-content p{
+        margin-bottom: 10px;
+    }
+    /* // TESTIMONIOS // */
+    .testimonios{
+        padding: 20px 30px;
+    }
+    .selecTestimonio{
+        width: 25px;
+    }
+    .botonSelect{
+        padding: 8px 16px;
+    }
+    /* // CONTACTO // */
+    .contact{
+        padding: 0px 10px;
+    }
+    .botonesContacto{
+        width: 80%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px 0px;
+    }
+    .botonContact{
+        padding: 20px 10px;
+    }
+    .formContact{
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .inpNombreMail{
+        width: 35%;
+    }
+    /* // FOOTER // */
+    .footer{
+        justify-content: center;
+    }
+    .footer p{
+        text-align: center;
+        width: 70%;
+    }
 }
 
 @media(min-width:1280px){
